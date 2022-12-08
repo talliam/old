@@ -1,17 +1,18 @@
 # Natallia Markhel
+#### Junior Frontend Developer
 ___
 ## Contact 
-E-mail: tallia.mark@gmail.com
-GitHub: talliam
-Location: Belarus
++ ___E-mail:___ tallia.mark@gmail.com
++ ___GitHub:___ talliam
++ ___Location:___ Belarus
 ___
 ## About me
-Recently I  started learn programming. I have studied HTML and CSS. Now I learn how to code in Java Script. I also completed online course "Web Design for beginners". Study in RS School now.
+I'm 22 years old. Recently I  started learn programming. I have studied HTML and CSS. Now I learn how to code in Java Script. I also completed online course "Web Design for beginners". Study in RS School now.
 ___
 ## Skills
-HTML, CSS, Java Script(in progress)
-Git, GitHub
-Photoshop, Illustrator
++ HTML, CSS, Java Script _(in progress)_
++ Git, GitHub
++ Photoshop, Illustrator
 ___
 ## Code example
 for (let i = 10; i <= 1000; i++) {
@@ -22,6 +23,6 @@ for (let i = 10; i <= 1000; i++) {
 }
 ___
 ## Languages
-English - A2 (in progress)
-Russian - native
-Belarusian - native
++ English - A2 _(in progress)_
++ Russian - native
++ Belarusian - native
