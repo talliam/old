@@ -7,9 +7,8 @@ body {
     background-color: #EFEFEF;
 }
 .wrapper {
-    border: 1px solid red;
     width: 1120px;
-    margin: 10px auto;
+    margin: -25px auto;
     padding: 0px 70px;
     background-color: white;
 }
@@ -22,8 +21,10 @@ header {
     height: 80px;
     background-color: #FCFF75;
     position: absolute;
+    border-radius: 5px;
 }
 nav {
+    padding-top: 20px;
     margin-top: 25px;
 }
 nav a {
@@ -34,7 +35,7 @@ nav a {
     color: black;
 }
 nav a:hover {
-    color: #727403;
+    color: #ff7300;
     text-decoration: underline;
 }
 .container {
@@ -64,15 +65,33 @@ nav a:hover {
     width: 60px;
     height: 130px;
     background-color: #FCFF75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.rectangle-contact img {
+    height: 22px;
+    width: 22px;
 }
 .mail {
     font-size: 18px;
     position: absolute;
-    top: 15px;
+    top: 5px;
     left: 70px;
 }
 .mail p {
-    margin: 10px 0px;
+    margin: 15px 0px;
+}
+.me a,
+.courses a {
+    text-decoration: none;
+    color: #ff7300;
+}
+.me a:hover,
+.courses a:hover {
+    text-decoration: underline;
 }
 .me, 
 .code-example,
@@ -112,10 +131,17 @@ aside {
     width: 330px;
 }
 .photo {
-    width: 250px;
+    width: 220px;
     height: 280px;
     background-color: #FCFF75;
     margin-top: 14px;
+    border-radius: 5px;
+}
+.photo img {
+    width: 180px;
+    height: 250px;
+    margin: 15px 20px;
+    border-radius: 5px;
 }
 .skills {
     margin-top: 60px;
@@ -126,4 +152,46 @@ aside {
     margin-top: 20px;
     font-size: 18px;
     line-height: 25px;
+}
+li::marker {
+    color: #ff7300; 
+}
+.line {
+    width: 2px;
+    height: 550px;
+    background-color: #FCFF75;
+    position: absolute;
+    top: 430px;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+.footer {
+    height: 75px;
+    background-color: #fcff75;
+    margin: 40px -70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer a {
+    margin-top: 22px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ff7300;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer img {
+    margin-top: -18px;
+    height: 65px;
+    width: 65px;
+}
+.footer p {
+    margin-top: 28px;
+    font-size: 18px;
+    color: #ff7300;
+}
+.footer .design {
+    font-size: 15px;
+    margin-top: 30px;
 }
