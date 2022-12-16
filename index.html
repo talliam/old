@@ -4,7 +4,102 @@
         <meta charset="utf-8">
         <title>CV Natallia Markhel</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
     </head>
     <body>
+        <div class="wrapper">
+            <header>
+                <div class="rectangle-header"></div>
+                <nav>
+                    <a href="#">About me</a>
+                    <a href="#">Code example</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Languages</a>
+                </nav>
+            </header>
+            <div class="container">
+                <main>
+                    <div class="name">
+                        <h1>Natallia Markhel</h1>
+                        <h2>Junior Frontend Developer</h2>
+                    </div>
+                    <div class="contact">
+                        <div class="rectangle-contact">
+                            <img src="./assets/mail.png" alt="Mail icon">
+                            <img src="./assets/discord.png" alt="Discord icon">
+                            <img src="./assets/location.png" alt="Location icon">
+                        </div>
+                        <div class="mail">
+                            <p>tallia.mark@gmail.com</p>
+                            <p>talliam</p>
+                            <p>Belarus</p>
+                        </div>
+                    </div>
+                    <div class="me">
+                        <h2>About me</h2>
+                        <p>
+                            I am 22 years old. Recently I started learn programming by myself.
+                            I have studied HTML and CSS. Now I learn how to code in JavaScript.
+                            I also completed online course “Web Design for beginners”.
+                            Study in <a href="https://rs.school">RS School</a> now. Develop my skills in English with the help of <a href="https://www.duolingo.com/learn">Diolingo</a> and <a href="https://www.engvid.com">engVid</a>.
+                        </p>
+                    </div>
+                    <div class="code-example">
+                        <h2>Code example</h2>
+                        <div class="code">
+                            <pre>
+                                for (let i = 10; i &lt;= 1000; i++) {
+                                    let str = String(i);
+                                    if (Number(str[0]) + Number(str[1]) === 5) {
+                                        console.log(i);
+                                    }
+                                  }  
+                            </pre>
+                        </div>
+                    </div>
+                </main>
+                <aside class="right">
+                    <div class="photo">
+                        <img src="assets/my_photo.jpg" alt="My photo">
+                    </div>
+                    <div class="line"></div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML, CSS, JavaScript (in progress)</li>
+                            <li>Git, GitHub</li>
+                            <li>Photoshop, Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="courses">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li>HTML (<a href="https://code-basics.com/ru/languages/html" >Code Basics</a>)</li>
+                            <li>CSS (<a href="https://code-basics.com/ru/languages/css">Code Basics</a>, <a href="https://code.mu/ru/markup/book/prime/" >Code.mu</a>)</li>
+                            <li>JavaScript (<a href="https://code.mu/ru/javascript/book/prime/" >Code.mu</a>)</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>English - A2 (in progress)</li>
+                            <li>Russian - native</li>
+                            <li>Belarusian - native</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <footer>
+                <div class="footer">
+                    <a href="https://github.com/talliam">GitHub</a>
+                    <p>2022</p>
+                    <a href="https://rs.school/js/"><img src="./assets/rs_school_icon.svg" alt="Курс «JavaScript/Front-end»"></a>
+                    <a href="https://www.freepik.com/author/oxurra" class="design">The idea for design</a>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
