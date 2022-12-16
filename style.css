@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EFEFEF;
+}
+.wrapper {
+    border: 1px solid red;
+    width: 1120px;
+    margin: 10px auto;
+    padding: 0px 70px;
+    background-color: white;
+}
+header {
+    height: 80px;
+    text-align: center;
+}
+.rectangle-header {
+    width: 60px;
+    height: 80px;
+    background-color: #FCFF75;
+    position: absolute;
+}
+nav {
+    margin-top: 25px;
+}
+nav a {
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: #727403;
+    text-decoration: underline;
+}
+.container {
+    margin-top: 13px;
+    display: flex;
+}
+.name h1 {
+    font-size: 65px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    margin-right: 51px;
+}
+.name h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #505050;
+    margin-right: 51px;
+}
+.name {
+    text-align: right;
+}
+.contact {
+    margin-top: 38px;
+    position: relative;
+}
+.rectangle-contact {
+    width: 60px;
+    height: 130px;
+    background-color: #FCFF75;
+}
+.mail {
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+.mail p {
+    margin: 10px 0px;
+}
+.me, 
+.code-example,
+.skills {
+    margin-top: 60px;
+}
+.courses,
+.languages {
+    margin-top: 30px;
+}
+.me h2,
+.code-example h2,
+.skills h2,
+.courses h2,
+.languages h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.me p {
+    width: 520px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.code-example h2 {
+    margin-bottom: 20px;
+}
+.code {
+    margin-left: -230px;
+    font-size: 16px;
+}
+main {
+    width: 590px;
+    margin-right: 60px;
+}
+aside {
+    width: 330px;
+}
+.photo {
+    width: 250px;
+    height: 280px;
+    background-color: #FCFF75;
+    margin-top: 14px;
+}
+.skills {
+    margin-top: 60px;
+}
+.skills ul,
+.courses ul,
+.languages ul {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
